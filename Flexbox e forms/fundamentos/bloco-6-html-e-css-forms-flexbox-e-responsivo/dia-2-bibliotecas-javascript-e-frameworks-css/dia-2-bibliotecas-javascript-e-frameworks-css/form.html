@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio bloco 6</title>
+</head>
+<body>
+    <header>
+<div class="contains">    
+            <h1>TrybeTrips</h1>
+<fieldset id="fieldset">
+<legend>Insira seus dados abaixo:</legend>
+    <form action="" method="get" id="speaker-form">
+    <label for="">Nome Completo</label>
+    <input type="text" name="nome" id="input-nome" maxlength="40" placeholder="Nome" required>
+    <br>
+    <label for="">E-mail</label>
+    <input type="text" name="email" id="input-email" maxlength="50" placeholder="Email" required>
+<div>
+    <input type="radio" name="cidade" id="input-sp" value="sp">
+    <label for="input-sp">São Paulo</label>
+    <input type="radio" name="cidade" id="input-rj" value="rj">
+    <label for="input-rj">Rio de Janeiro</label>
+    <input type="radio" name="cidade" id="input-mg" value="mg">
+    <label for="input-mg">Minas Gerais</label>
+    <input type="radio" name="cidade" id="input-rs" value="rs">
+    <label for="">Rio Grande do Sul</label>
+</div>
+<div>
+<label for="area de texto">Digite seu texto:</label>
+    <br>
+     <textarea name="area de texto" id="" cols="30" rows="5" maxlength="500" placeholder="Insira seu texto aqui."></textarea>
+    <br>
+</div> 
+<div>
+    <label for="data">Qual a melhor data para realizar sua viagem?</label>
+      <input type="date" name="dataViagem" id="input-data" value="data">
+    <br>
+</div>
+<div>
+    <label for="">Concordo1</label>
+    <input type="checkbox" name="selectArea1" id="input-select1" value="disponivel">
+    <label for="">Concordo2</label>
+    <input type="checkbox" name="selectArea2" id="input-select2" value="disponivel">
+<br>
+</div>
+</fieldset>
+<div id="btn-enviar">
+    <button type="submit">Enviar</button>
+</div>
+<div id="btn-reset">
+    <button type="reset">Limpar</button>
+</div>
+</form>
+</div>
+</header>
+<script src="script.js"></script>
+</body>
+</html>
